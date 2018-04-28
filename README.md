@@ -40,3 +40,5 @@
 * [1](https://www.sqlshack.com/functions-vs-stored-procedures-sql-server/)
 * [2](https://www.dotnettricks.com/learn/sqlserver/difference-between-stored-procedure-and-function-in-sql-server)
 * [3](https://blogs.msdn.microsoft.com/pradeepsvs/2014/10/08/difference-between-a-stored-procedure-and-function/)
+### Cursores
+* [Vantagens e desvantagens](https://www.sqlshack.com/using-sql-server-cursors-advantages-and-disadvantages/)
