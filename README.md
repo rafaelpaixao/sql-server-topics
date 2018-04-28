@@ -11,8 +11,8 @@
 * [Tabelas inserted e deleted](https://docs.microsoft.com/pt-br/sql/relational-databases/triggers/use-the-inserted-and-deleted-tables?view=sql-server-2017)
 
 ### Funções definidas pelo usuário
-*[Visão Geral](https://docs.microsoft.com/pt-br/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-2017)
-*[Criação](https://docs.microsoft.com/pt-br/sql/relational-databases/user-defined-functions/create-user-defined-functions-database-engine?view=sql-server-2017)
+* [Visão Geral](https://docs.microsoft.com/pt-br/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-2017)
+* [Criação](https://docs.microsoft.com/pt-br/sql/relational-databases/user-defined-functions/create-user-defined-functions-database-engine?view=sql-server-2017)
 
 ### Procedimentos armazenados
 * [Visão geral](https://docs.microsoft.com/pt-br/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)
