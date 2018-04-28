@@ -32,6 +32,9 @@
 * [Visão Geral](https://docs.microsoft.com/pt-br/sql/relational-databases/cursors?view=sql-server-2017)
 * [Criação](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/declare-cursor-transact-sql?view=sql-server-2017)
 
+### Performance
+* [Guia da Arquitetura de Processamento de Consultas](https://docs.microsoft.com/pt-br/sql/relational-databases/query-processing-architecture-guide?view=sql-server-2017)
+
 ---
 
 ## Artigos de outras fontes
