@@ -1,4 +1,4 @@
-# sql-server-topics
+## Docs Oficiais do SQL Server
 
 ### Noções básicas de SQL
 * [Tabelas](https://docs.microsoft.com/pt-br/sql/relational-databases/tables/tables?view=sql-server-2017)
@@ -31,3 +31,12 @@
 ### Cursores
 * [Visão Geral](https://docs.microsoft.com/pt-br/sql/relational-databases/cursors?view=sql-server-2017)
 * [Criação](https://docs.microsoft.com/pt-br/sql/t-sql/language-elements/declare-cursor-transact-sql?view=sql-server-2017)
+
+---
+
+## Artigos de outras fontes
+
+### Procedures vs Functions
+* [1](https://www.sqlshack.com/functions-vs-stored-procedures-sql-server/)
+* [2](https://www.dotnettricks.com/learn/sqlserver/difference-between-stored-procedure-and-function-in-sql-server)
+* [3](https://blogs.msdn.microsoft.com/pradeepsvs/2014/10/08/difference-between-a-stored-procedure-and-function/)
