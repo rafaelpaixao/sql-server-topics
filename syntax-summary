@@ -1,0 +1,88 @@
+
+-- Adicionar uma coluna
+ALTER TABLE table_name
+ADD column_name datatype
+
+-- Remover uma coluna
+ALTER TABLE table_name
+DROP COLUMN column_name
+
+-- Atualizar valores
+UPDATE table_name
+SET column1=value, column2=value,...
+WHERE (...)
+
+
+-- Deletar tabela
+DELETE FROM table_name 
+-- Deletar linhas
+DELETE FROM table_name
+WHERE (...)
+
+-- Exemplos de condicionais para Where
+column_name BETWEEN value1 AND value2
+column_name LIKE 'a%'
+column_name IN (value1, value2, ...)
+column_name NOT IN (SELECT STATEMENT)
+
+-- Criar índice
+CREATE [ UNIQUE ] [ CLUSTERED | NONCLUSTERED ] INDEX index_name   
+ON table_name (column_name)
+
+-- Criar View
+CREATE VIEW view_name
+AS
+SELECT (...)
+GO
+
+
+-- Syntax Cursor
+DECLARE my_cursor CURSOR FOR
+SELECT colum1, column2 FROM (...)
+
+OPEN my_cursor
+
+FETCH NEXT FROM my_cursor
+INTO @variable1, @variable2
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    (...)
+    FETCH NEXT FROM my_cursor
+    INTO @variable1, @variable2
+END
+
+CLOSE my_cursor
+DEALLOCATE my_cursor
+
+
+-- Syntax Trigger
+CREATE TRIGGER my_trigger
+ON TABLE_NAME
+FOR | AFTER | INSTEAD OF
+INSERT | DELETE | UPDATE
+AS
+BEGIN
+    (...)
+END
+
+
+-- Syntax Procedure
+CREATE PROCEDURE my_proc
+@param1 INT
+AS
+(...)
+GO
+
+-- Chamar procedure
+EXEC db.my_proc @param1 value1
+
+
+-- Syntax Function
+CREATE FUNCTION my_func (@param1 int)
+RETURNS type(size)
+AS
+BEGIN
+    (...)
+    RETURN (...)
+END
